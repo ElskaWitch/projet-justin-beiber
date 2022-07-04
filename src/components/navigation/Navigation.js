@@ -45,7 +45,7 @@ export default function Navigation() {
         </Link>
       </div>
       <div>
-        <ul className="flex gap-9 bg-darkBlue p-5 text-white hover:bg-lightBlue">
+        <ul className="flex gap-1">
           {items.map((item) => (
             <NavItems slug={item.slug} key={item.id} name={item.name} />
           ))}

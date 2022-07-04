@@ -23,15 +23,22 @@ export default function Services2section() {
     },
   ];
   return (
-    <div className="grid grid-cols-3">
-      {dats.map((dat) => (
-        <Services2Card
-          img={dat.img}
-          alt={dat.alt}
-          title={dat.title}
-          key={dat.id}
-        />
-      ))}
+    <div>
+      <div className="grid grid-cols-3">
+        {dats.map((dat) => (
+          <Services2Card
+            img={dat.img}
+            alt={dat.alt}
+            title={dat.title}
+            key={dat.id}
+          />
+        ))}
+      </div>
+      <div className="pt-20 px-20 ">
+        <button className="bg-lightBlue px-10 py-3 text-white">
+          Contactez-moi
+        </button>
+      </div>
     </div>
   );
 }

@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Home3Card({ pourcent, title }) {
   return (
-    <div className="flex ">
+    <div className="flex">
       <div className="pt-20 ">
         <div className="bg-lightGrey rounded-full  p-4 ">
           <div className="bg-whiteGrey rounded-full p-5 ">
