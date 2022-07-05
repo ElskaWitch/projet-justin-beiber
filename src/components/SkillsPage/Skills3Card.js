@@ -11,7 +11,7 @@ export default function Skills3Card({ langage, pourcent, value }) {
           <p>{pourcent}</p>
         </div>
       </div>
-      <div>
+      <div className="">
         <progress className="progress w-64 " value={value} max="100"></progress>
       </div>
     </div>
