@@ -11,7 +11,7 @@ export default function Layout({ children }) {
         <div>
           <Hero />
         </div>
-        <div className="bg-whiteGrey">{children}</div>
+        <div className="bg-whiteGrey w-full">{children}</div>
       </main>
       <Footer />
     </div>

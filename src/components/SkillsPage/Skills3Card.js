@@ -4,7 +4,7 @@ export default function Skills3Card({ langage, pourcent, value }) {
   return (
     <div className="">
       <div className="flex justify-between px-5 py-5">
-        <div className="font-medium">
+        <div className="">
           <p>{langage}</p>
         </div>
         <div>

@@ -36,7 +36,7 @@ export default function Navigation() {
     },
   ];
   return (
-    <div className="flex items-center space-x-20">
+    <div className=" md:flex md:items-center md:space-x-20">
       <div className="">
         <Link to="/">
           <p className="text-darkBlue font-bold text-title2">
@@ -45,7 +45,7 @@ export default function Navigation() {
         </Link>
       </div>
       <div>
-        <ul className="flex gap-1">
+        <ul className="hidden md:flex md:gap-1">
           {items.map((item) => (
             <NavItems slug={item.slug} key={item.id} name={item.name} />
           ))}

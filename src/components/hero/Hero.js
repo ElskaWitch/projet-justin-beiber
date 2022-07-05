@@ -3,10 +3,49 @@ import { GrGooglePlus } from "react-icons/gr";
 import { BsPinterest } from "react-icons/bs";
 import { FaFacebookF } from "react-icons/fa";
 import { BsTwitter } from "react-icons/bs";
+import HeroCard from "./HeroCard";
 
 export default function Hero() {
+  const dattas = [
+    {
+      img: "crayon.webp",
+      alt: "crayon",
+      info: "Name:",
+      information: "Justin Bieber",
+      id: 60,
+    },
+    {
+      img: "crayon.webp",
+      alt: "crayon 2",
+      info: "Localisation:",
+      information: "London UK",
+      id: 61,
+    },
+    {
+      img: "email.webp",
+      alt: "lettre",
+      info: "",
+      information: "Contactme@gmail.com",
+      id: 62,
+    },
+    {
+      img: "tel.webp",
+      alt: "telephone",
+      info: "",
+      information: "+76 6525 154785 763",
+      id: 63,
+    },
+    {
+      img: "ordi.webp",
+      alt: "ordinateur",
+      info: "",
+      information: "www.mytemplatename.com",
+      id: 64,
+    },
+  ];
+
   return (
-    <div className="bg-darkBlue ">
+    <div className="bg-darkBlue">
       <div>
         <img src="hero.webp" alt="justin bieber" />
       </div>
@@ -14,31 +53,18 @@ export default function Hero() {
         <div>
           <h2 className="text-title2 text-white pb-10">General Information</h2>
         </div>
-        <div className="flex pb-4">
-          <img src="crayon.webp" alt="crayon" />
-          <p className="pl-5 text-white ">
-            <span className="text-lightGrey">Name:</span> Justin Bieber
-          </p>
+        <div className="">
+          {dattas.map((datta) => (
+            <HeroCard
+              img={datta.img}
+              alt={datta.alt}
+              info={datta.info}
+              information={datta.information}
+              key={datta.id}
+            />
+          ))}
         </div>
-        <div className="flex pb-4">
-          <img src="" alt="" />
-          <p className="pl-9 text-white">
-            <span className="text-lightGrey">Location:</span> London UK
-          </p>
-        </div>
-        <div className="flex pb-4">
-          <img src="email.webp" alt="email" />
-          <p className="pl-5 text-lightGrey">contactme@templatename.com</p>
-        </div>
-        <div className="flex pb-4">
-          <img src="tel.webp" alt="telephone" />
-          <p className="pl-5 text-lightGrey">+76 6524 567862 763</p>
-        </div>
-        <div className="flex pb-7">
-          <img src="ordi.webp" alt="site web" />
-          <p className="pl-5 text-lightGrey">www.mytemplatename.com</p>
-        </div>
-        <div className="flex gap-5 text-lightGrey px-14">
+        <div className="flex gap-5 text-lightGrey ">
           <GrGooglePlus />
           <BsPinterest />
           <FaFacebookF />

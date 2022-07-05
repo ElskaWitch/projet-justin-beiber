@@ -23,7 +23,7 @@ export default function Testimonials2section() {
     },
   ];
   return (
-    <div className="grid grid-cols-3">
+    <div className="grid grid-cols-3 px-20 pt-14">
       {dattas.map((datta) => (
         <Testimonials2Card
           img={datta.img}
