@@ -4,7 +4,7 @@ export default function Home2section() {
   return (
     <div className="px-20 ">
       <div className="py-10">
-        <h2 className="text-darkBlue font-bold text-title2">Description</h2>
+        <h2 className="text-darkBlue font-bold md:text-title2">Description</h2>
       </div>
       <div>
         <p className="text-darkGrey">

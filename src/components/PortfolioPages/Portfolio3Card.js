@@ -7,7 +7,7 @@ export default function Portfolio3Card({ img, alt, title }) {
         <img src={img} alt={alt} />
       </div>
       <div>
-        <h2 className="text-darkBlue font-bold text-title2 pt-5 text-center">
+        <h2 className="text-darkBlue font-bold md:text-title2 pt-5 text-center">
           {title}
         </h2>
       </div>

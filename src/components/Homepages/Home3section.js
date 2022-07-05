@@ -30,7 +30,7 @@ export default function Home3section() {
   ];
   return (
     <div className="px-20 ">
-      <div className="grid grid-cols-4">
+      <div className="pb-10 md:grid grid-cols-4">
         {dats.map((dat) => (
           <Home3Card pourcent={dat.pourcent} key={dat.id} title={dat.title} />
         ))}

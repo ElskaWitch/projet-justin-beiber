@@ -24,7 +24,7 @@ export default function Services2section() {
   ];
   return (
     <div>
-      <div className="grid grid-cols-3">
+      <div className="md:grid grid-cols-3">
         {dats.map((dat) => (
           <Services2Card
             img={dat.img}
@@ -34,8 +34,8 @@ export default function Services2section() {
           />
         ))}
       </div>
-      <div className="pt-20 px-20 ">
-        <button className="bg-lightBlue px-10 py-3 text-white">
+      <div className="pt-20 px-20 pb-10 ">
+        <button className="bg-lightBlue px-7 md:px-10 py-3 text-white">
           Contactez-moi
         </button>
       </div>

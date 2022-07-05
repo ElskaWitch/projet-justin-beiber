@@ -17,7 +17,7 @@ export default function Portfolio3section() {
     },
   ];
   return (
-    <div className="flex">
+    <div className="md:flex">
       {dattas.map((datta) => (
         <Portfolio3Card
           alt={datta.alt}

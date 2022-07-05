@@ -49,11 +49,11 @@ export default function Hero() {
       <div>
         <img src="hero.webp" alt="justin bieber" />
       </div>
-      <div className="px-20 py-10 text-center">
+      <div className="md:px-14 py-10 text-center">
         <div>
           <h2 className="text-title2 text-white pb-10">General Information</h2>
         </div>
-        <div className="">
+        <div className="px-16">
           {dattas.map((datta) => (
             <HeroCard
               img={datta.img}
@@ -64,7 +64,7 @@ export default function Hero() {
             />
           ))}
         </div>
-        <div className="flex gap-5 text-lightGrey ">
+        <div className="flex gap-5 text-lightGrey px-24 pt-5 ">
           <GrGooglePlus />
           <BsPinterest />
           <FaFacebookF />

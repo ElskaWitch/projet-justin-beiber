@@ -5,9 +5,9 @@ import Footer from "../footer/Footer";
 
 export default function Layout({ children }) {
   return (
-    <div className="px-14 py-7 ">
+    <div className="md:px-14 md:py-7 ">
       <Navigation />
-      <main className="flex">
+      <main className="md:flex">
         <div>
           <Hero />
         </div>

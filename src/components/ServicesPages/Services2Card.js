@@ -4,8 +4,8 @@ export default function Services2Card({ img, alt, title }) {
   return (
     <div className=" px-20 pt-20">
       <div className="">
-        <div className="w-96">
-          <img className=" " src={img} alt={alt} />
+        <div className="md:w-96 pb-5">
+          <img src={img} alt={alt} />
         </div>
         <div>
           <h2 className="text-darkBlue font-bold text-title2">{title}</h2>
