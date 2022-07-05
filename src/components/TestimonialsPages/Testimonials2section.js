@@ -34,25 +34,19 @@ export default function Testimonials2section() {
           />
         ))}
       </div>
-      <div className="flex justify-center w-full py-2 gap-2  ">
+      <div className="flex justify-center gap-3 pb-6 ">
         <a
           href="#portrait1.webp"
-          className="btn btn-xs hover:bg-lightBlue bg-grey rounded-full h-2 w-2  text-whiteGrey "
-        >
-          .
-        </a>
+          className="btn btn-xs hover:bg-lightBlue bg-grey rounded-full p-3  "
+        ></a>
         <a
           href="#portrait2.webp"
-          className="btn btn-xs hover:bg-lightBlue bg-grey rounded-full h-2 w-2 text-whiteGrey "
-        >
-          .
-        </a>
+          className="btn btn-xs hover:bg-lightBlue bg-grey rounded-full p-3  "
+        ></a>
         <a
           href="#portrait3.webp"
-          className="btn btn-xs hover:bg-lightBlue bg-grey rounded-full h-2 w-2  text-whiteGrey"
-        >
-          .
-        </a>
+          className="btn btn-xs hover:bg-lightBlue bg-grey rounded-full p-3 "
+        ></a>
       </div>
     </div>
   );
