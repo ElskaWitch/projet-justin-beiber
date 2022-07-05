@@ -2,9 +2,9 @@ import React from "react";
 
 export default function Services2Card({ img, alt, title }) {
   return (
-    <div className=" px-20">
-      <div className="flx">
-        <div className="">
+    <div className=" px-20 pt-20">
+      <div className="">
+        <div className="w-96">
           <img className=" " src={img} alt={alt} />
         </div>
         <div>

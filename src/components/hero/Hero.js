@@ -6,17 +6,17 @@ import { BsTwitter } from "react-icons/bs";
 
 export default function Hero() {
   return (
-    <div className="bg-darkBlue">
+    <div className="bg-darkBlue ">
       <div>
         <img src="hero.webp" alt="justin bieber" />
       </div>
-      <div className="container py-10">
+      <div className="px-20 py-10 text-center">
         <div>
           <h2 className="text-title2 text-white pb-10">General Information</h2>
         </div>
         <div className="flex pb-4">
           <img src="crayon.webp" alt="crayon" />
-          <p className="pl-5 text-white">
+          <p className="pl-5 text-white ">
             <span className="text-lightGrey">Name:</span> Justin Bieber
           </p>
         </div>

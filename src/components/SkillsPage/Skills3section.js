@@ -41,7 +41,7 @@ export default function Skills3section() {
     },
   ];
   return (
-    <div className="grid grid-cols-3">
+    <div className="grid grid-cols-3 px-20 pt-10">
       {dattas.map((datta) => (
         <Skills3Card
           pourcent={datta.pourcent}
