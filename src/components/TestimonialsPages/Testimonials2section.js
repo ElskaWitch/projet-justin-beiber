@@ -23,8 +23,8 @@ export default function Testimonials2section() {
     },
   ];
   return (
-    <div className="md:px-20">
-      <div className="md:grid grid-cols-3 pt-14 pb-10">
+    <div className="md:px-20 ">
+      <div className="md:grid grid-cols-3 pt-14 pb-4">
         {dattas.map((datta) => (
           <Testimonials2Card
             img={datta.img}
@@ -33,6 +33,26 @@ export default function Testimonials2section() {
             key={datta.id}
           />
         ))}
+      </div>
+      <div className="flex justify-center w-full py-2 gap-2  ">
+        <a
+          href="#portrait1.webp"
+          className="btn btn-xs hover:bg-lightBlue bg-grey rounded-full h-2 w-2  text-whiteGrey "
+        >
+          .
+        </a>
+        <a
+          href="#portrait2.webp"
+          className="btn btn-xs hover:bg-lightBlue bg-grey rounded-full h-2 w-2 text-whiteGrey "
+        >
+          .
+        </a>
+        <a
+          href="#portrait3.webp"
+          className="btn btn-xs hover:bg-lightBlue bg-grey rounded-full h-2 w-2  text-whiteGrey"
+        >
+          .
+        </a>
       </div>
     </div>
   );
