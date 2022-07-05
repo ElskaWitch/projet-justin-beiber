@@ -5,7 +5,7 @@ export default function Home3Card({ pourcent, title }) {
     <div className="flex">
       <div className="pt-20 ">
         <div className="bg-lightGrey rounded-full p-3 ">
-          <div className="bg-whiteGrey rounded-full p-6 text-center ">
+          <div className="bg-whiteGrey rounded-full py-6 px-4 text-center ">
             <p className="font-bold text-title2">{pourcent}</p>
           </div>
         </div>
