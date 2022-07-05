@@ -49,7 +49,7 @@ export default function Hero() {
       <div>
         <img src="hero.webp" alt="justin bieber" />
       </div>
-      <div className="md:px-14 py-10 text-center">
+      <div className=" md:px-14 py-10 text-center">
         <div>
           <h2 className="text-title2 text-white pb-10">General Information</h2>
         </div>
